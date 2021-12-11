@@ -1,0 +1,35 @@
+.parent {
+  background-color: #1f2937;
+  margin-top: 2rem;
+  margin-inline: auto;
+  max-width: 400px;
+  height: auto;
+  border-radius: 4rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  padding-bottom: 1.5rem;
+}
+
+.parent h3 {
+  text-align: center;
+  color: #f9faf8;
+  padding-top: 1rem;
+}
+.span {
+  margin-top: 1rem;
+  position: relative;
+  left: 5rem;
+  text-align: justify;
+  color: #e5e7eb;
+}
+
+.span a {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.1);
+  color: #e5e7eb;
+  transition: color 1.2s, text-decoration-color 1.2s;
+}
+
+.span a:hover {
+  color: #3882f6;
+  text-decoration-color: #3882f6;
+}
