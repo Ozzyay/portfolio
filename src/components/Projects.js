@@ -58,7 +58,7 @@ const Projects = () => {
       </motion.div>
       <motion.div variants={innerCont} className={styles.project2cont}>
         <a
-          href="https://search-and-c98e3.web.app/"
+          href="https://react-todolist-8e28b.web.app/"
           target="_blank"
           rel="noreferrer"
           className="imgA"
