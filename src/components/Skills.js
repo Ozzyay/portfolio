@@ -24,15 +24,15 @@ const advanced = (
   <React.Fragment>
     <h3>Advanced Skills</h3>
     <ul>
-      <li>ReactJS focusing on Functional Components</li>
+      <li>ReactJS </li>
       <li>React Router v5, v6</li>
-      <li>State Management with React Redux Toolkit</li>
+      <li>Redux</li>
       <li>HTML5, CSS, Javascript and NPM</li>
       <li>Working with REST APIs and authentication tokens</li>
       <li>Leet Code completion of all mediums</li>
       <li>Git Version Control</li>
-      <li>Fetch API for JS</li>
-      <li>Framer Motion for React Animations</li>
+      <li>Fetch API</li>
+      <li>Framer Motion</li>
       <li>SASS and Styled Components</li>
       <li>Communication and Teamwork</li>
     </ul>

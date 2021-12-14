@@ -39,12 +39,18 @@ const Contact = () => {
           href="https://www.linkedin.com/in/ozzy-aytekin-21b9a8227"
           target="_blank"
           rel="noreferrer"
+          className={styles.a}
         >
           Click Here for My LinkedIn
         </a>
       </motion.p>
       <motion.p variants={children} className={styles.span}>
-        <a href="http://github.com/ozzyay" target="_blank" rel="noreferrer">
+        <a
+          className={styles.a}
+          href="http://github.com/ozzyay"
+          target="_blank"
+          rel="noreferrer"
+        >
           Click Here for my GitHub
         </a>
       </motion.p>

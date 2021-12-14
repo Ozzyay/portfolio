@@ -8,7 +8,7 @@
   opacity: 0;
   display: flex;
   flex-basis: 50%;
-  background-color: #1f2937;
+  background-color: rgba(0, 0, 0, 0.15);
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
@@ -17,6 +17,8 @@
   height: 250px;
   border-radius: 4rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  outline: 1px solid rgba(0, 0, 0, 0.01);
 }
 
 .project2cont {
@@ -25,7 +27,7 @@
   opacity: 0;
   display: flex;
   flex-basis: 50%;
-  background-color: #e0b56a;
+  background-color: rgba(255, 255, 255, 0.4);
   justify-content: center;
   padding-bottom: 2rem;
   padding-left: 2rem;
@@ -34,6 +36,8 @@
   align-items: center;
   border-radius: 4rem;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  outline: 1px solid rgba(0, 0, 0, 0.01);
+  overflow: hidden;
 }
 .project2cont img {
   margin-left: 1rem;
@@ -104,7 +108,9 @@
 
 .endcont {
   margin-bottom: 2rem;
-  background-color: #3882f6;
+  background-color: rgba(56, 130, 246, 0.25);
+  outline: 1px solid rgba(0, 0, 0, 0.01);
+  overflow: hidden;
 }
 .endcont .textDiv a:hover {
   color: #262626;

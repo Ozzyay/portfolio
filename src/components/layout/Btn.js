@@ -1,24 +1,17 @@
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import styles from "./Btn.module.scss";
 
 const Btn = (props) => {
-  const [classes, setClasses] = useState(props.classes);
   const navigate = useNavigate();
-  const hoverHandler = (e) => {
-    setClasses("btn");
-  };
   const clickHandler = (e) => {
     const link = props.text;
     navigate(`/${link}`);
   };
   return (
-    <button
-      className={classes}
-      onMouseEnter={hoverHandler}
-      onClick={clickHandler}
-    >
-      {props.text}
-    </button>
+    <div className={styles.btn} onClick={clickHandler}>
+      <p className={styles.span}>{props.text}</p>
+      <p className={styles.innerText}>{props.innerText}</p>
+    </div>
   );
 };
 

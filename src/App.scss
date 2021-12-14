@@ -34,10 +34,18 @@
 }
 .App {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
   opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .App {
+    gap: 1rem;
+    flex-direction: column;
+  }
 }
 
 .btn {
@@ -52,14 +60,6 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   transform: scale(1);
   transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.btnFirst {
-  animation: 1.5s ease 0s 1 slideInFromLeft;
-}
-
-.btnSecond {
-  animation: 1.5s ease 0s 1 slideInFromRight;
 }
 .btn:hover {
   background-color: #3882f6;

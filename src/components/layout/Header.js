@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import styles from "./Header.module.scss";
 import React from "react";
 import { Link } from "react-router-dom";
+import HomeIcon from "../images/HomeIcon";
 
 const container = {
   hidden: { opacity: 0 },
@@ -31,10 +32,11 @@ const Header = () => {
       className={styles.bg}
       animate={{
         opacity: 1,
-        transition: { duration: 0.5 },
+        transition: { duration: 0.25 },
       }}
     >
       <Link to="/" className={styles.link}>
+        <HomeIcon />
         <motion.div variants={container} inital="hidden" animate="show">
           {children}
         </motion.div>{" "}
