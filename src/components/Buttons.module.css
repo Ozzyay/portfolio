@@ -1,0 +1,28 @@
+
+.mainCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+  gap: 1em;
+}
+
+.buttonCont {
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  background-color: rgba(41, 41, 41, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.svg {
+  stroke: black;
+  transition: stroke 250ms ease;
+  cursor: pointer;
+}
+
+.svg:hover {
+  stroke: rgba(255, 255, 255, 1);
+}
+

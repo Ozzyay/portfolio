@@ -1,0 +1,53 @@
+.container {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  transition: all 500ms ease;
+}
+.flexContainer {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 100%;
+  gap: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  fill: white;
+  transition: fill 500ms ease;
+}
+.a:hover {
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.2);
+
+}
+
+.a:hover, .a:hover .svg {
+  fill: #846075;
+  color: #846075;
+
+}
+
+@media (max-width: 650px) {
+  .container {
+  margin-inline: 0;
+  }
+  .flexContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}

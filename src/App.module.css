@@ -1,0 +1,50 @@
+.sectionOne {
+  height: 100vh;
+}
+.name {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15vh;
+  padding-inline: 0.25em;
+  text-align: center;
+}
+
+.bg {
+  position: fixed;
+  z-index: -100;
+}
+.tag {
+  color: #846075;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  padding-inline: 0.25em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  gap: 1em;
+  text-align: center;
+}
+
+.languageText::after {
+  content: "";
+  position: relative;
+  border-right: 0.175rem solid #846075;
+  width: 100vw;
+  left: 0.15rem;
+  top: 0;
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: #846075; }
+}
